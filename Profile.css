@@ -1,0 +1,72 @@
+/* hw01.css */
+
+ body {
+            font-family: Times, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            
+        }
+        
+        .container {
+            position: relative;
+            width: 80%;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            background-color: #fff;
+}
+
+        nav {
+            position: absolute;
+            top: 140px;
+            left: 0;
+            width: 20%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: left;
+            border-color: black;
+        }
+
+        .bio {
+            position: absolute;
+            top: 140px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+            border-color: black;
+            
+        }
+        
+        .bio-content {
+            text-align: left;
+        }
+
+        .image {
+            position: absolute;
+            top: 140px;
+            right: 0;
+            width: 20%;
+            padding: 0;
+            border: 0;
+        }
+
+        .trivia {
+            position: absolute;
+            top: 350px;
+            left: 0;
+            width: 100%;
+            padding: 20px;
+            border: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
